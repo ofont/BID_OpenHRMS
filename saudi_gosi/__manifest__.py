@@ -1,0 +1,22 @@
+{
+    'name': "Open HRMS GOSI",
+    'version': '11.0.1.1.0',
+    'summary': """GOSI Contribution For Saudi Employees,Added Company Contribution hsitory in GOSI Register""",
+    'description': """GOSI Contribution For Saudi Employees""",
+    'category': 'Human Resources',
+    'author': 'Cybrosys Techno solutions,Open HRMS',
+    'company': 'Cybrosys Techno Solutions',
+    'maintainer': 'Cybrosys Techno Solutions',
+    'website': "https://www.openhrms.com",
+    'depends': ['base', 'hr', 'hr_payroll','oh_employee_creation_from_user'],
+    'data': [
+             'views/gosi_view.xml',
+             'views/sequence.xml',
+             'data/rule.xml',
+            ],
+    'demo': [],
+    'images': ['static/description/banner.jpg'],
+    'license': "AGPL-3",
+    'installable': True,
+    'application': True,
+}
